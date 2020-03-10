@@ -10,6 +10,7 @@ nav{
 	background-color: pink;
 	box-shadow: 10px 10px 10px 10px #ddd;
 	position: fixed;
+	top: 0;
 }
 
 nav img{
