@@ -8,8 +8,14 @@ nav{
 	width: 100%;
 	height: 60px;
 	background-color: pink;
-	box-shadow: 10px 10px 10px #ddd;
-	display: fixed;
+	box-shadow: 10px 10px 10px 10px #ddd;
+	position: fixed;
+}
+
+nav img{
+	height: 60px;
+	padding: 8px 0;
+	margin-left: 16px;
 }
 
 ul{
@@ -24,9 +30,13 @@ li{
 	padding: 0 0.5rem;
 }
 
-nav li a{
+a{
 	text-decoration: none;
 	color: black;
+}
+
+.no_body{
+	height: 60px;
 }
 
 .section{
@@ -62,5 +72,23 @@ nav li a{
 #gambar img{
 	width: 90%;
 	border-radius: 1rem;
+	box-shadow: 0 12px 20px #ddd;
+}
+
+.call_me{
+	padding: 12px 32px;
+	background-color: #fff;
+	color: #ff7b51;
+	margin-top: 16px;
+	border-radius: 32px;
+	border: 1px solid #ff7b51;
+	transition: 0.3s;
+}
+
+.call_me:hover{
+	box-shadow: 0 10px 20px #ddd;
+	background-color: #ff7b51;
+	color: white;
+	transition: 0.3s;
 }
 
