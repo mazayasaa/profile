@@ -10,12 +10,12 @@ nav{
 	background-color: pink;
 	box-shadow: 10px 10px 10px #ddd;
 	display: fixed;
-	border-bottom: 1px solid #000;
 }
 
 ul{
 	margin: 0;
 	padding: 1rem; /* 1 rem = 16px */
+	float: right;
 }
 
 li{
@@ -24,7 +24,43 @@ li{
 	padding: 0 0.5rem;
 }
 
-a{
+nav li a{
 	text-decoration: none;
 	color: black;
 }
+
+.section{
+	padding: 40px;
+}
+
+.section h3{
+	margin: 0;
+}
+
+.section h1{
+	margin-top: 0;
+}
+
+#info_utama{
+	display: flex;
+}
+
+#identitas{
+	width: 50%;
+}
+
+#identitas p{
+	line-height: 26px;
+	color: #696969;
+	font-size: 14px;
+}
+
+#gambar{
+	width: 50%;
+}
+
+#gambar img{
+	width: 90%;
+	border-radius: 1rem;
+}
+
