@@ -13,6 +13,7 @@ nav{
 }
 
 nav img{
+	weidth: 60px;
 	height: 60px;
 	padding: 8px 0;
 	margin-left: 16px;
