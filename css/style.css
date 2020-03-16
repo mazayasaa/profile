@@ -7,8 +7,8 @@ body{
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: pink;
-	box-shadow: 10px 10px 10px 10px #ddd;
+	background-color: rgb(246, 222, 235);
+	box-shadow: 5px 5px 5px 5px #ddd;
 	position: fixed;
 	top: 0;
 }
@@ -53,6 +53,7 @@ a{
 	margin-top: 0;
 }
 
+
 #info_utama{
 	display: flex;
 }
@@ -72,9 +73,10 @@ a{
 }
 
 #gambar img{
-	width: 80%;
+	width: 60%;
 	border-radius: 1rem;
 	box-shadow: 0 12px 20px #ddd;
+	padding: 10px 10px 10px 10px;
 }
 
 .call_me{
@@ -100,18 +102,40 @@ a{
 
 #pemrograman_web{
 	width: 33,3%;
+	background-color: rgb(248, 173, 163);
+	padding: 20px;
 }
 
 #struktur_data{
 	width: 33,3%;
+	background-color: rgb(246, 222, 235);
+	padding: 20px;
 }
 
 #basis_data{
 	width: 33,3%;
+	background-color: rgb(248, 173, 163);
+	padding: 20px;
+}
+
+#pemrograman_web p{
+	line-height: 26px;
+	color: black;
+	font-size: 14px;
+}
+
+#struktur_data p{
+	line-height: 26px;
+	color: black;
+	font-size: 14px;
+}
+
+#basis_data p{
+	line-height: 26px;
+	color: black;
+	font-size: 14px;
 }
 
 #keahlian p{
-	line-height: 26px;
-	color: #696969;
-	font-size: 14px;
+	text-align: justify;
 }
