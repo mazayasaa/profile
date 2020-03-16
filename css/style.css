@@ -72,7 +72,7 @@ a{
 }
 
 #gambar img{
-	width: 90%;
+	width: 80%;
 	border-radius: 1rem;
 	box-shadow: 0 12px 20px #ddd;
 }
@@ -94,3 +94,24 @@ a{
 	transition: 0.3s;
 }
 
+#keahlian{
+	display: flex;
+}
+
+#pemrograman_web{
+	width: 33,3%;
+}
+
+#struktur_data{
+	width: 33,3%;
+}
+
+#basis_data{
+	width: 33,3%;
+}
+
+#keahlian p{
+	line-height: 26px;
+	color: #696969;
+	font-size: 14px;
+}
